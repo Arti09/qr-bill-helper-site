@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swiss QR-Bill Helper — Privacy policy / Datenschutzerklärung</title>
+  <style>
+    :root { --fg: #1a1a1a; --muted: #5b6270; --line: #e5e7eb; --accent: #d52b1e; --bg: #fff; }
+    @media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --muted: #9ca3af; --line: #2a2e35; --bg: #16181c; } }
+    body { margin: 0 auto; max-width: 720px; padding: 32px 16px 64px; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    h1 { font-size: 24px; margin: 0 0 4px; }
+    h1::before { content: ""; display: inline-block; width: 14px; height: 14px; background: var(--accent); border-radius: 3px; margin-right: 10px; }
+    h2 { font-size: 19px; margin: 40px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+    h3 { font-size: 16px; margin: 20px 0 4px; }
+    nav a, a { color: var(--accent); }
+    .muted { color: var(--muted); }
+    .todo { background: #fff3cd; color: #5c4400; padding: 0 4px; border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <h1>Swiss QR-Bill Helper</h1>
+  <p class="muted">Privacy policy · Datenschutzerklärung — <span class="todo">last updated: DATE</span></p>
+  <nav><a href="#en">English</a> · <a href="#de">Deutsch</a></nav>
+
+  <section id="en" lang="en">
+    <h2>Privacy policy</h2>
+    <p><strong>In short:</strong> the contents of your QR-bills never leave your computer. The extension has no server of its own, no analytics and no ads. Only the optional Pro license is checked with ExtensionPay.</p>
+
+    <h3>Who is responsible</h3>
+    <p><span class="todo">NAME, ADDRESS</span>, e-mail: <span class="todo">CONTACT E-MAIL</span></p>
+
+    <h3>What the extension reads, and where it stays</h3>
+    <ul>
+      <li><strong>QR codes on web pages, in PDFs and in pasted images</strong> are decoded and checked inside your browser. The bill data (creditor, IBAN, amount, reference, message, debtor) is not sent anywhere.</li>
+      <li><strong>Screenshots</strong> of the visible tab are taken only when you open the extension or press "Scan screen", are decoded immediately and are not saved or sent.</li>
+      <li><strong>Clipboard:</strong> the extension only writes to it when you press a copy button.</li>
+    </ul>
+
+    <h3>What is stored on your computer</h3>
+    <ul>
+      <li><strong>History</strong> of bills shown in the extension (up to 200), so Pro users can find them again. Stored locally in your browser profile; you can remove single entries or clear it in the extension.</li>
+      <li><strong>Free-plan counter:</strong> which bills were copied with "Copy all" this month.</li>
+      <li><strong>Settings and license status:</strong> your "Copy all" format and the last known Pro status. The copy format and ExtensionPay's anonymous key are kept in Chrome's synced storage, so if you use Chrome sync they are synchronised to your other devices through your Google account.</li>
+    </ul>
+    <p>Uninstalling the extension deletes all of this.</p>
+
+    <h3>Pro license and payment (ExtensionPay, Stripe)</h3>
+    <p>To check whether you have Pro, the extension contacts <a href="https://extensionpay.com">ExtensionPay</a> with an anonymous key created for your installation. If you buy Pro or log in, you give ExtensionPay your e-mail address, and the payment is processed by <a href="https://stripe.com/privacy">Stripe</a> on their pages; card details never pass through the extension. ExtensionPay and Stripe process this data under their own privacy policies. No bill data is sent to them.</p>
+
+    <h3>What we don't do</h3>
+    <p>No analytics or tracking, no advertising, no sale or sharing of data, no use of data for creditworthiness or lending.</p>
+
+    <h3>Your rights</h3>
+    <p>Under the Swiss Federal Act on Data Protection (FADP/revDSG) and, where applicable, the GDPR you can ask for information, correction or deletion. As we hold no bill data ourselves, the data on your computer is under your control; for your Pro account, contact us or ExtensionPay.</p>
+  </section>
+
+  <section id="de" lang="de">
+    <h2>Datenschutzerklärung</h2>
+    <p><strong>Kurz:</strong> Der Inhalt Ihrer QR-Rechnungen verlässt Ihren Computer nie. Die Erweiterung hat keinen eigenen Server, keine Analyse und keine Werbung. Nur die freiwillige Pro-Lizenz wird bei ExtensionPay geprüft.</p>
+
+    <h3>Verantwortlich</h3>
+    <p><span class="todo">NAME, ADRESSE</span>, E-Mail: <span class="todo">KONTAKT-E-MAIL</span></p>
+
+    <h3>Was die Erweiterung liest und wo es bleibt</h3>
+    <ul>
+      <li><strong>QR-Codes auf Webseiten, in PDFs und in eingefügten Bildern</strong> werden im Browser gelesen und geprüft. Die Rechnungsdaten (Zahlbar an, IBAN, Betrag, Referenz, Mitteilung, Zahlungspflichtige/r) werden nirgendwohin gesendet.</li>
+      <li><strong>Bildschirmfotos</strong> des sichtbaren Tabs entstehen nur, wenn Sie die Erweiterung öffnen oder «Bildschirm scannen» drücken; sie werden sofort ausgewertet und weder gespeichert noch gesendet.</li>
+      <li><strong>Zwischenablage:</strong> Die Erweiterung schreibt nur hinein, wenn Sie einen Kopieren-Knopf drücken.</li>
+    </ul>
+
+    <h3>Was auf Ihrem Computer gespeichert wird</h3>
+    <ul>
+      <li><strong>Verlauf</strong> der in der Erweiterung angezeigten Rechnungen (bis 200), damit Pro-Nutzende sie wiederfinden. Lokal im Browserprofil gespeichert; einzelne Einträge oder der ganze Verlauf lassen sich in der Erweiterung löschen.</li>
+      <li><strong>Zähler des Gratis-Abos:</strong> welche Rechnungen diesen Monat mit «Alles kopieren» kopiert wurden.</li>
+      <li><strong>Einstellungen und Lizenzstatus:</strong> Ihr Format für «Alles kopieren» und der zuletzt bekannte Pro-Status. Das Kopierformat und der anonyme Schlüssel von ExtensionPay liegen im synchronisierten Speicher von Chrome; wenn Sie die Chrome-Synchronisierung nutzen, werden sie über Ihr Google-Konto auf Ihre anderen Geräte übertragen.</li>
+    </ul>
+    <p>Beim Deinstallieren der Erweiterung wird all dies gelöscht.</p>
+
+    <h3>Pro-Lizenz und Zahlung (ExtensionPay, Stripe)</h3>
+    <p>Um zu prüfen, ob Sie Pro haben, kontaktiert die Erweiterung <a href="https://extensionpay.com">ExtensionPay</a> mit einem anonymen Schlüssel für Ihre Installation. Wenn Sie Pro kaufen oder sich anmelden, geben Sie ExtensionPay Ihre E-Mail-Adresse an; die Zahlung wickelt <a href="https://stripe.com/de-ch/privacy">Stripe</a> auf deren Seiten ab, Kartendaten laufen nie über die Erweiterung. ExtensionPay und Stripe bearbeiten diese Daten nach ihren eigenen Datenschutzerklärungen. Rechnungsdaten erhalten sie keine.</p>
+
+    <h3>Was wir nicht tun</h3>
+    <p>Keine Analyse oder Verfolgung, keine Werbung, kein Verkauf oder Weitergeben von Daten, keine Verwendung für Kreditwürdigkeit oder Kreditvergabe.</p>
+
+    <h3>Ihre Rechte</h3>
+    <p>Nach dem Schweizer Datenschutzgesetz (DSG) und, wo anwendbar, der DSGVO können Sie Auskunft, Berichtigung oder Löschung verlangen. Da wir selbst keine Rechnungsdaten haben, liegen die Daten auf Ihrem Computer in Ihrer Hand; für Ihr Pro-Konto wenden Sie sich an uns oder an ExtensionPay.</p>
+  </section>
+</body>
+</html>
