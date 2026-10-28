@@ -7,4 +7,4 @@ Served with GitHub Pages at https://arti09.github.io/qr-bill-helper-site/
 - `privacy.html`: privacy policy (DE/EN). Source: `store/privacy.html` in the private extension repo — copy it here when it changes.
 - `style.css`: shared styles.
 
-Yellow `todo` spans mark details the owner still has to fill in (name, address, contact e-mail, dates, place of jurisdiction).
+Provider details (name, address, contact e-mail, place of jurisdiction) appear in index.html, en.html, terms.html and privacy.html — change them in all four.
