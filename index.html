@@ -1,5 +1,82 @@
 <!doctype html>
-<meta charset="utf-8">
-<title>Swiss QR-Bill Helper</title>
-<meta http-equiv="refresh" content="0; url=privacy.html">
-<p><a href="privacy.html">Privacy policy / Datenschutzerklärung</a></p>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swiss QR-Bill Helper – QR-Rechnungen mit einem Klick ins E-Banking</title>
+  <meta name="description" content="Chrome-Erweiterung: findet Schweizer QR-Rechnungen in Webseiten, Webmail und PDFs und kopiert IBAN, Betrag und Referenz mit einem Klick.">
+  <link rel="alternate" hreflang="de" href="index.html">
+  <link rel="alternate" hreflang="en" href="en.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top"><div class="wrap">
+    <a class="brand" href="index.html"><span class="cross"></span>Swiss QR-Bill Helper</a>
+    <nav><a class="hide-sm" href="#features">Funktionen</a><a href="#pricing">Preise</a><a class="hide-sm" href="#faq">FAQ</a><a href="#contact">Kontakt</a><a href="en.html">English</a></nav>
+  </div></div>
+
+  <section class="hero"><div class="wrap">
+    <div>
+      <h1>QR-Rechnungen mit einem Klick ins E-Banking</h1>
+      <p class="lead">Swiss QR-Bill Helper findet Schweizer QR-Rechnungen in Webseiten, Webmail und PDFs und kopiert IBAN, Betrag und Referenz – geprüft und ohne Abtippen.</p>
+      <span class="btn soon">Bald im Chrome Web Store</span>
+      <p class="small">Für Google Chrome · Deutsch, Français, Italiano, English, Русский, Українська</p>
+    </div>
+    <div class="popup" aria-hidden="true">
+      <div class="ph"><b>Swiss QR-Bill Helper</b><span class="scan">Bildschirm scannen</span></div>
+      <div class="bill">
+        <div class="ok">✓ Gültige QR-Rechnung</div>
+        <dl>
+          <div class="row"><dt>Zahlbar an</dt><dd class="">Muster Elektro AG<br>Musterstrasse 123<br>8000 Zürich</dd><span class="cp">Kopieren</span></div>
+          <div class="row"><dt>IBAN</dt><dd class="mono">CH44 3199 9123 0008 8901 2</dd><span class="cp">Kopieren</span></div>
+          <div class="row"><dt>Betrag</dt><dd class="mono">CHF 1949.75</dd><span class="cp">Kopieren</span></div>
+          <div class="row"><dt>Referenz</dt><dd class="mono">21 00000 00003 13947 14300 09017</dd><span class="cp">Kopieren</span></div>
+          <div class="row"><dt>Mitteilung</dt><dd class="">Rechnung 2026-1015</dd><span class="cp">Kopieren</span></div>
+        </dl>
+        <div class="acts"><span>Text ▾</span><span>Alles kopieren</span></div>
+      </div>
+      <div class="plan"><span>Gratis: 1 von 5 Rechnungen diesen Monat</span><u>Auf Pro wechseln</u></div>
+    </div>
+  </div></section>
+
+  <section class="band alt" id="features"><div class="wrap">
+    <h2>Was die Erweiterung macht</h2>
+    <div class="grid3">
+        <div class="card"><h3>Findet QR-Rechnungen</h3><p>In Bildern auf Webseiten und im Webmail (z. B. Gmail, Outlook im Web) – mit grünem Hinweis direkt beim Code.</p></div>
+        <div class="card"><h3>Liest auch PDFs</h3><p>In der PDF-Ansicht von Chrome und in Vorschauen scannt das Fenster den Bildschirm selbständig.</p></div>
+        <div class="card"><h3>Kopiert, was Sie brauchen</h3><p>Jedes Feld einzeln oder «Alles kopieren» als Text, Tabellenzeile oder IBAN;Betrag;Referenz.</p></div>
+        <div class="card"><h3>Prüft vor dem Zahlen</h3><p>IBAN-Prüfziffer, QR-IBAN und QR-Referenz, Prüfziffern von QRR und SCOR, Betrag und Währung.</p></div>
+        <div class="card"><h3>Verhindert Doppelzahlungen</h3><p>Bereits kopierte Rechnungen zeigen «kopiert am …».</p></div>
+        <div class="card"><h3>Bleibt auf Ihrem Computer</h3><p>Kein Server, keine Analyse, keine Werbung. Rechnungsdaten verlassen Ihren Computer nie.</p></div>
+    </div>
+  </div></section>
+
+  <section class="band" id="pricing"><div class="wrap">
+    <h2>Preise</h2>
+    <div class="prices">
+      <div class="price"><h3>Gratis</h3><div class="amount">0 CHF</div><ul><li>Alle Funktionen</li><li>«Alles kopieren» für 5 verschiedene Rechnungen pro Monat</li><li>Einzelne Felder immer unbegrenzt</li></ul></div>
+      <div class="price pro"><h3>Pro</h3><div class="amount">4 CHF / Monat</div><div class="small">oder 29 CHF / Jahr</div><ul><li>Unbegrenzt viele Rechnungen</li><li>Verlauf aller gefundenen Rechnungen</li><li>Jederzeit kündbar · 14 Tage Geld-zurück</li></ul></div>
+    </div>
+    <p class="small">Für Kundinnen und Kunden in der Schweiz und in Liechtenstein. Bezahlung über Stripe (via ExtensionPay). Es gelten die <a href="terms.html">Verkaufsbedingungen</a>.</p>
+  </div></section>
+
+  <section class="band alt" id="faq"><div class="wrap">
+    <h2>Häufige Fragen</h2>
+      <details><summary>Mit welchen Banken funktioniert es?</summary><p>Mit allen: Die Erweiterung kopiert die Zahlungsangaben, Sie fügen sie im E-Banking Ihrer Bank ein. Es braucht keinen Bank-Login.</p></details>
+      <details><summary>Sind meine Daten sicher?</summary><p>Die QR-Codes werden lokal in Ihrem Browser gelesen. Nur die Pro-Lizenzprüfung kontaktiert ExtensionPay; Rechnungsdaten werden nie gesendet. Details in der <a href="privacy.html">Datenschutzerklärung</a>.</p></details>
+      <details><summary>Wie kündige ich Pro?</summary><p>Im Fenster der Erweiterung unten auf «Abo verwalten». Die Kündigung gilt auf Ende der bezahlten Periode.</p></details>
+      <details><summary>Gibt es eine Geld-zurück-Garantie?</summary><p>Ja: Innert 14 Tagen nach der ersten Zahlung erstatten wir den vollen Betrag auf Anfrage per E-Mail, ohne Begründung.</p></details>
+  </div></section>
+
+  <section class="band" id="contact"><div class="wrap">
+    <h2>Kontakt und Impressum</h2>
+    <p>Anbieter: <span class="todo">NAME</span>, <span class="todo">ADRESSE</span><br>E-Mail: <span class="todo">KONTAKT-E-MAIL</span></p>
+    <p class="small">Nicht verbunden mit SIX, PostFinance oder einer Bank. «QR-Rechnung» bezeichnet den Schweizer Standard für Einzahlungsscheine.</p>
+  </div></section>
+
+  <footer><div class="wrap">
+    <span>© 2026 Swiss QR-Bill Helper</span>
+    <nav><a href="terms.html">Verkaufsbedingungen</a><a href="privacy.html#de">Datenschutz</a><a href="en.html">English</a></nav>
+  </div></footer>
+</body>
+</html>

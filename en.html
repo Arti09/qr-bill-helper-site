@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swiss QR-Bill Helper – Swiss QR-bills into e-banking with one click</title>
+  <meta name="description" content="Chrome extension: finds Swiss QR-bills in web pages, webmail and PDFs and copies IBAN, amount and reference with one click.">
+  <link rel="alternate" hreflang="de" href="index.html">
+  <link rel="alternate" hreflang="en" href="en.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top"><div class="wrap">
+    <a class="brand" href="en.html"><span class="cross"></span>Swiss QR-Bill Helper</a>
+    <nav><a class="hide-sm" href="#features">Features</a><a href="#pricing">Pricing</a><a class="hide-sm" href="#faq">FAQ</a><a href="#contact">Contact</a><a href="index.html">Deutsch</a></nav>
+  </div></div>
+
+  <section class="hero"><div class="wrap">
+    <div>
+      <h1>Swiss QR-bills into e-banking with one click</h1>
+      <p class="lead">Swiss QR-Bill Helper finds Swiss QR-bills in web pages, webmail and PDFs and copies IBAN, amount and reference — checked, without retyping.</p>
+      <span class="btn soon">Coming soon to the Chrome Web Store</span>
+      <p class="small">For Google Chrome · English, Deutsch, Français, Italiano, Русский, Українська</p>
+    </div>
+    <div class="popup" aria-hidden="true">
+      <div class="ph"><b>Swiss QR-Bill Helper</b><span class="scan">Scan screen</span></div>
+      <div class="bill">
+        <div class="ok">✓ Valid QR-bill</div>
+        <dl>
+          <div class="row"><dt>Creditor</dt><dd class="">Muster Elektro AG<br>Musterstrasse 123<br>8000 Zürich</dd><span class="cp">Copy</span></div>
+          <div class="row"><dt>IBAN</dt><dd class="mono">CH44 3199 9123 0008 8901 2</dd><span class="cp">Copy</span></div>
+          <div class="row"><dt>Amount</dt><dd class="mono">CHF 1949.75</dd><span class="cp">Copy</span></div>
+          <div class="row"><dt>Reference</dt><dd class="mono">21 00000 00003 13947 14300 09017</dd><span class="cp">Copy</span></div>
+          <div class="row"><dt>Message</dt><dd class="">Invoice 2026-1015</dd><span class="cp">Copy</span></div>
+        </dl>
+        <div class="acts"><span>Plain text ▾</span><span>Copy all</span></div>
+      </div>
+      <div class="plan"><span>Free: 1 of 5 bills this month</span><u>Upgrade</u></div>
+    </div>
+  </div></section>
+
+  <section class="band alt" id="features"><div class="wrap">
+    <h2>What it does</h2>
+    <div class="grid3">
+        <div class="card"><h3>Finds QR-bills</h3><p>In images on web pages and in webmail (e.g. Gmail, Outlook on the web) — with a green label right at the code.</p></div>
+        <div class="card"><h3>Reads PDFs too</h3><p>In Chrome's PDF viewer and in previews, the popup scans the screen by itself.</p></div>
+        <div class="card"><h3>Copies what you need</h3><p>Each field on its own, or "Copy all" as text, a table row, or IBAN;amount;reference.</p></div>
+        <div class="card"><h3>Checks before you pay</h3><p>IBAN check digits, QR-IBAN and QR reference, QRR and SCOR check digits, amount and currency.</p></div>
+        <div class="card"><h3>Prevents paying twice</h3><p>Bills you copied before show "copied on …".</p></div>
+        <div class="card"><h3>Stays on your computer</h3><p>No server, no analytics, no ads. Bill data never leaves your computer.</p></div>
+    </div>
+  </div></section>
+
+  <section class="band" id="pricing"><div class="wrap">
+    <h2>Pricing</h2>
+    <div class="prices">
+      <div class="price"><h3>Free</h3><div class="amount">0 CHF</div><ul><li>All features</li><li>"Copy all" for 5 different bills per month</li><li>Single fields always unlimited</li></ul></div>
+      <div class="price pro"><h3>Pro</h3><div class="amount">4 CHF / month</div><div class="small">or 29 CHF / year</div><ul><li>Unlimited bills</li><li>History of all bills found</li><li>Cancel anytime · 14-day money back</li></ul></div>
+    </div>
+    <p class="small">For customers in Switzerland and Liechtenstein. Payment by Stripe (via ExtensionPay). Our <a href="terms.html#en">terms of sale</a> apply.</p>
+  </div></section>
+
+  <section class="band alt" id="faq"><div class="wrap">
+    <h2>FAQ</h2>
+      <details><summary>Which banks does it work with?</summary><p>All of them: the extension copies the payment details, you paste them into your bank's e-banking. No bank login needed.</p></details>
+      <details><summary>Is my data safe?</summary><p>QR codes are read locally in your browser. Only the Pro license check contacts ExtensionPay; bill data is never sent. Details in the <a href="privacy.html#en">privacy policy</a>.</p></details>
+      <details><summary>How do I cancel Pro?</summary><p>In the extension's popup, click "Manage subscription" at the bottom. Cancellation takes effect at the end of the paid period.</p></details>
+      <details><summary>Is there a money-back guarantee?</summary><p>Yes: within 14 days of the first payment we refund the full amount on request by e-mail, no reason needed.</p></details>
+  </div></section>
+
+  <section class="band" id="contact"><div class="wrap">
+    <h2>Contact and imprint</h2>
+    <p>Provider: <span class="todo">NAME</span>, <span class="todo">ADDRESS</span><br>E-mail: <span class="todo">CONTACT E-MAIL</span></p>
+    <p class="small">Not affiliated with SIX, PostFinance or any bank. "QR-bill" is the Swiss standard for payment slips.</p>
+  </div></section>
+
+  <footer><div class="wrap">
+    <span>© 2026 Swiss QR-Bill Helper</span>
+    <nav><a href="terms.html#en">Terms of sale</a><a href="privacy.html#en">Privacy</a><a href="index.html">Deutsch</a></nav>
+  </div></footer>
+</body>
+</html>
